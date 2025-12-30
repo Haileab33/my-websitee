@@ -1,0 +1,446 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Haileab — Web Development & Graphic Design</title>
+  <meta name="description" content="Web development and graphic design services — modern responsive websites, branding, and visuals." />
+
+  <!-- Open Graph / Twitter (replace image URLs when you add your own) -->
+  <meta property="og:title" content="Haileab — Web Development & Graphic Design">
+  <meta property="og:description" content="I design and build fast, responsive websites and visual identities that help brands stand out online.">
+  <meta property="og:image" content="images/hero.svg">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Minimal slideshow styles so the carousel looks OK even if styles.css isn't updated -->
+
+  
+
+    
+</head>
+<body class="dark">
+  <!-- Header -->
+  <header class="site-header creative" id="home">
+    <div class="container header-inner">
+      <a class="logo" href="#home" aria-label="Haileab home">
+        <span class="logo-mark" aria-hidden="true">
+          <svg viewBox="0 0 100 100" width="60" height="60" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="g1" x1="0" x2="1">
+                <stop offset="0" stop-color="#7c3aed"/>
+                <stop offset="1" stop-color="#06b6d4"/>
+              </linearGradient>
+            </defs>
+            <circle cx="50" cy="50" r="46" fill="url(#g1)"/>
+            <text x="50%" y="55%" font-size="46" fill="#fff" font-family="sans-serif" text-anchor="middle" alignment-baseline="middle">H</text>
+          </svg>
+        </span>
+        <span class="logo-text-wrap">
+          <span class="logo-text"><strong>Haileab</strong></span>
+          <span class="tagline">Web & Graphic Craft</span>
+        </span>
+      </a>
+
+      <nav class="nav" id="nav">
+        <ul class="nav-list">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a class="cta-link" href="#contact">Hire Me</a></li>
+        </ul>
+      </nav>
+
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span class="hamburger"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="hero" role="banner" aria-labelledby="hero-title">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <h1 id="hero-title" class="hero-title">Creative Design. Bright Results.</h1>
+      <p class="hero-sub">I build elegant, high-performance websites and striking visuals that get noticed — fast, responsive, and focused on conversion.</p>
+      <div class="hero-cta">
+        <a class="btn primary" href="#contact">Get Started</a>
+        <a class="btn ghost" href="#portfolio">See Work</a>
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <!-- About -->
+    <section class="section about" id="about">
+      <div class="container">
+        <h2>About Me</h2>
+        <p>Hi — I’m Haileab, a web developer and graphic designer with a passion for building responsive websites, 
+          distinctive brand identities, and engaging digital graphics. My work blends clean, modern aesthetics with thoughtful functionality, 
+          ensuring that every project not only looks great but also delivers a seamless user experience.</p>
+
+I combine creative vision with modern development practices, 
+from intuitive front‑end design to performance‑driven coding standards. 
+Whether it’s crafting a brand identity or designing a website that adapts beautifully across devices, 
+I focus on originality, clarity, and impact — helping ideas come to life in ways that are both visually striking and technically sound.</p>
+      </div>
+    </section>
+    <section id="skills" class="skills-section" aria-labelledby="skills-title">
+  <div class="wrap">
+    <header class="skills-header">
+      <h2 id="skills-title">My Skills</h2>
+      <p class="lead">Frontend & backend tools I use to build fast, accessible, and maintainable interfaces.</p>
+    </header>
+
+    <div class="skills-grid">
+      <!-- Column: Skill cards with progress bars -->
+      <div class="skills-list">
+        <article class="skill" data-level="95" aria-label="HTML proficiency 95 percent">
+          <div class="skill-meta">
+            <div class="skill-icon" aria-hidden="true">
+              <!-- simple HTML5 SVG -->
+              <svg width="28" height="28" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill="#E44D26" d="M19 3h90l-8 90-37 22-37-22L19 3z"/>
+                <path fill="#F16529" d="M64 117v-26l30-8 6-67H64v101z"/>
+                <path fill="#EBEBEB" d="M64 57h14l1-16H64V26H36l2 22h26v9z"/>
+              </svg>
+            </div>
+            <div class="skill-name">HTML</div>
+          </div>
+          <div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+            <div class="progress-bar" style="width: 0%"></div>
+          </div>
+          <div class="skill-footer">
+            <small class="percent">95%</small>
+            <small class="experience">2+ yrs</small>
+          </div>
+        </article>
+
+        <article class="skill" data-level="92" aria-label="CSS proficiency 92 percent">
+          <div class="skill-meta">
+            <div class="skill-icon" aria-hidden="true">
+              <!-- CSS3 SVG -->
+              <svg width="28" height="28" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill="#264DE4" d="M19 3h90l-8 90-37 22-37-22L19 3z"/>
+                <path fill="#2965f1" d="M64 117v-26l30-8 6-67H64v101z"/>
+                <path fill="#fff" d="M64 57h14l1-16H64V26H36l2 22h26v9z"/>
+              </svg>
+            </div>
+            <div class="skill-name">CSS</div>
+          </div>
+          <div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+            <div class="progress-bar" style="width: 0%"></div>
+          </div>
+          <div class="skill-footer">
+            <small class="percent">92%</small>
+            <small class="experience">2+ yrs</small>
+          </div>
+        </article>
+
+        <article class="skill" data-level="90" aria-label="JavaScript proficiency 90 percent">
+          <div class="skill-meta">
+            <div class="skill-icon" aria-hidden="true">
+              <!-- JS SVG -->
+              <svg width="28" height="28" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+                <path fill="#f7df1e" d="M1 1h126v126H1z"/>
+                <path d="M42 34v60h14V60l18-6v-20l-32 0zM92 34v60h14V60l18-6v-20L92 34z" fill="#000" opacity=".85"/>
+              </svg>
+            </div>
+            <div class="skill-name">JavaScript</div>
+          </div>
+          <div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+            <div class="progress-bar" style="width: 0%"></div>
+          </div>
+          <div class="skill-footer">
+            <small class="percent">90%</small>
+            <small class="experience">1+ yrs</small>
+          </div>
+        </article>
+
+        <article class="skill" data-level="85" aria-label="React proficiency 85 percent">
+          <div class="skill-meta">
+            <div class="skill-icon" aria-hidden="true">
+              <!-- React atom -->
+              <svg width="28" height="28" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+                <g fill="none" stroke="#61DAFB" stroke-width="6" stroke-linecap="round">
+                  <ellipse cx="64" cy="64" rx="44" ry="18"/>
+                  <ellipse cx="64" cy="64" rx="18" ry="44" transform="rotate(60 64 64)"/>
+                  <ellipse cx="64" cy="64" rx="18" ry="44" transform="rotate(120 64 64)"/>
+                </g>
+                <circle cx="64" cy="64" r="6" fill="#61DAFB"/>
+              </svg>
+            </div>
+            <div class="skill-name">React</div>
+          </div>
+          <div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+            <div class="progress-bar" style="width: 0%"></div>
+          </div>
+          <div class="skill-footer">
+            <small class="percent">85%</small>
+            <small class="experience">1+ yrs</small>
+          </div>
+        </article>
+      </div>
+
+      <!-- Column: Summary or tools list -->
+      <aside class="skills-side" aria-hidden="false">
+        <div class="card">
+          <h3>Tools & Technologies</h3>
+          <ul class="tools">
+            <li>TypeScript</li>
+            <li>Node.js / Express</li>
+            <li>Next.js / Vite</li>
+            <li>Git, GitHub</li>
+            <li>REST & GraphQL</li>
+            <li>Testing: Jest, React Testing Library</li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+    <!-- Services -->
+    <section class="section services" id="services">
+      <div class="container">
+        <h2>Services</h2>
+        <div class="services-grid">
+          <article class="service-card">
+            <img src="images/web.svg" alt="Website Development" loading="lazy">
+            <div class="service-body">
+              <h3>Website Development</h3>
+              <p>Custom responsive websites, performance optimization, and CMS integration.</p>
+              <a class="learn-more" href="#contact">Learn More →</a>
+            </div>
+          </article>
+
+          <article class="service-card">
+            <img src="images/graphic.svg" alt="Graphic Design" loading="lazy">
+            <div class="service-body">
+              <h3>Graphic Design</h3>
+              <p>Logos, marketing materials, social assets, and illustrations that communicate your message clearly.</p>
+              <a class="learn-more" href="#contact">Learn More →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio (slideshow using live sample images from Unsplash) -->
+    <section class="section portfolio" id="portfolio">
+      <div class="container">
+        <h2>Portfolio</h2>
+        <p class="muted">Selected projects — browse the slideshow of sample website images. Click the main image or any thumbnail to open a larger preview.</p>
+
+        <div id="slideshow" class="slideshow" aria-live="polite">
+          <div class="slideshow-main" role="region" aria-label="Portfolio slideshow">
+            <button class="slideshow-prev sr-only" aria-label="Previous slide">Prev</button>
+
+            <img id="slideshow-image" src="" alt="Portfolio image">
+
+            <div class="slideshow-meta" id="slideshow-meta" aria-hidden="false">
+              <strong id="slideshow-title"></strong>
+              <div id="slideshow-desc" class="muted" style="font-size:.95rem; margin-top:.25rem;"></div>
+            </div>
+
+            <div class="slideshow-controls" aria-hidden="false">
+              <div style="display:flex;align-items:center;">
+                <button class="slideshow-prev" aria-label="Previous" title="Previous">‹</button>
+                <button id="slideshow-playpause" aria-label="Pause autoplay" title="Play / Pause">Pause</button>
+                <button class="slideshow-next" aria-label="Next" title="Next">›</button>
+              </div>
+              <div>
+                <button id="open-full" aria-label="Open full preview" title="Open full preview">Open</button>
+              </div>
+            </div>
+          </div>
+
+          <div id="slideshow-thumbs" class="slideshow-thumbs" aria-label="Slide thumbnails">
+            <!-- thumbnails are injected by script -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal for portfolio preview (re-usable) -->
+      <div id="portfolio-modal" class="modal" aria-hidden="true" role="dialog" aria-label="Project preview">
+        <div class="modal-content" role="document" style="max-width:1100px; margin:1rem auto; padding:1rem;">
+          <button class="modal-close" id="modal-close" aria-label="Close preview" style="float:right;font-size:28px;background:none;border:0;color:#fff;">&times;</button>
+          <img id="modal-image" src="" alt="">
+          <div class="modal-meta">
+            <h3 id="modal-title"></h3>
+            <p id="modal-desc"></p>
+          </div>
+        </div>
+        <div class="modal-backdrop" id="modal-backdrop" style="position:fixed;inset:0;background:rgba(0,0,0,0.7);"></div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="section testimonials" id="testimonials">
+      <div class="container">
+        <h2>Testimonials</h2>
+        <div class="testimonials-grid">
+          <blockquote class="testimonial">
+            <p>"Haileab delivered a sleek website quickly — conversion increased and brand consistency improved."</p>
+            <cite>— Client A</cite>
+          </blockquote>
+          <blockquote class="testimonial">
+            <p>"Great communication and strong design sense. Our new logo and social assets look fantastic."</p>
+            <cite>— Client B</cite>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact / Registration (improved) -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <h2>Contact / Project Registration</h2>
+        <p class="muted">Tell me about your project — I'll reply within 1–2 business days.</p>
+
+        <!-- FORMSPREE integration: action points to your Formspree form -->
+        <form id="contact-form" class="contact-form" action="https://formspree.io/f/xzdbvrow" method="POST" novalidate>
+          <!-- Subject for email -->
+          <input type="hidden" name="_subject" value="New contact from Haileab website">
+          <!-- Redirect page (relative to site root) -->
+          <input type="hidden" name="_next" value="thank-you.html">
+          <!-- Honeypot field (visually hidden) -->
+          <label class="visually-hidden">Leave this field empty
+            <input type="text" name="_gotcha" tabindex="-1" autocomplete="off">
+          </label>
+
+          <div class="form-grid">
+            <label>
+              <span class="label-text">Full Name</span>
+              <input type="text" name="name" id="name" required placeholder="Your full name">
+            </label>
+
+            <label>
+              <span class="label-text">Email</span>
+              <input type="email" name="email" id="email" required placeholder="you@example.com">
+            </label>
+
+            <label>
+              <span class="label-text">Phone Number</span>
+              <input type="tel" name="phone" id="phone" placeholder="0911111111" pattern="^[0-9+\-\s()]{6,}$">
+            </label>
+
+            <label>
+              <span class="label-text">Project Type</span>
+              <select name="project_type" id="project_type" required>
+                <option value="">Select</option>
+                <option>Website Development</option>
+                <option>Graphic Design</option>
+                <option>Landing Page</option>
+                <option>E-commerce</option>
+                <option>Other</option>
+              </select>
+            </label>
+
+            <label class="full">
+              <span class="label-text">Message</span>
+              <textarea name="message" id="message" rows="6" required placeholder="Tell me about the project, timeline, goals..."></textarea>
+            </label>
+
+            <br>
+          </div>
+
+          <div class="form-actions">
+            <button class="btn primary" type="submit">Register Project</button>
+            <div id="form-status" aria-live="polite" class="form-status"></div>
+          </div>
+
+          <!-- Social links added to the form section footer -->
+          <div class="contact-socials" aria-label="Follow on social media">
+            <a href="https://x.com/" target="_blank" rel="noopener" title="X " aria-label="X">
+  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+    <path d="M5 6.5L18.5 20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M18.5 3.5L5 17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+</a>
+
+            <a href="https://www.linkedin.com/" target="_blank" rel="noopener" title="LinkedIn" aria-label="LinkedIn">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4.98 3.5a2.3 2.3 0 1 1 0 4.6 2.3 2.3 0 0 1 0-4.6zM3 8.98h3.96V21H3V8.98zM9.5 9h3.8v1.6h.06c.53-1 1.82-2.06 3.74-2.06 4 0 4.74 2.64 4.74 6.07V21h-3.96v-5.1c0-1.2-.02-2.74-1.67-2.74-1.67 0-1.92 1.3-1.92 2.64V21H9.5V9z" fill="currentColor"/></svg>
+            </a>
+
+            <a href="https://github.com/" target="_blank" rel="noopener" title="GitHub" aria-label="GitHub">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 .5a12 12 0 00-3.8 23.4c.6.1.8-.25.8-.55v-2c-3.3.72-4-1.6-4-1.6-.5-1.1-1.2-1.4-1.2-1.4-1-.7.08-.7.08-.7 1.1.08 1.7 1.1 1.7 1.1 1 .1 1.6.7 2 .9.1-.7.4-1.2.8-1.4-2.6-.3-5.4-1.3-5.4-5.9 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2.9-.2 1.8-.3 2.8-.3s1.9.1 2.8.3c2.3-1.5 3.3-1.2 3.3-1.2.6 1.7.2 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.4 5.9.4.3.7.9.7 1.9v2.8c0 .3.2.7.8.6A12 12 0 0012 .5z" fill="currentColor"/></svg>
+            </a>
+            <a href="https://t.me/Lel_1717" target="_blank" rel="noopener" title="Telegram" aria-label="Telegram">
+  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+    <path d="M22 2L2 12l6 2 2 6 12-18z" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <path d="M9.5 13.5L20 4.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.9"/>
+  </svg>
+</a>
+
+<a href="https://www.instagram.com/_hhaile_" target="_blank" rel="noopener" title="Instagram" aria-label="Instagram">
+  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+    <rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" stroke-width="1.6" fill="none"/>
+    <circle cx="12" cy="11.8" r="3.6" stroke="currentColor" stroke-width="1.6" fill="none"/>
+    <circle cx="17.6" cy="6.4" r="0.8" fill="currentColor"/>
+  </svg>
+</a>
+          </div>
+        </form>
+        <br>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-left">
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+
+      <div class="footer-center">
+        <div class="socials" aria-label="Social media links">
+          <a href="https://x.com/" target="_blank" rel="noopener" title="X " aria-label="X">
+  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+    <path d="M5 6.5L18.5 20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M18.5 3.5L5 17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+</a>
+
+          <a href="#" aria-label="LinkedIn (placeholder)" class="social" title="LinkedIn">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M4.98 3.5a2.3 2.3 0 1 1 0 4.6 2.3 2.3 0 0 1 0-4.6zM3 8.98h3.96V21H3V8.98zM9.5 9h3.8v1.6h.06c.53-1 1.82-2.06 3.74-2.06 4 0 4.74 2.64 4.74 6.07V21h-3.96v-5.1c0-1.2-.02-2.74-1.67-2.74-1.67 0-1.92 1.3-1.92 2.64V21H9.5V9z" fill="currentColor"/>
+            </svg>
+          </a>
+          <a href="https://github.com/" target="_blank" rel="noopener" title="GitHub" aria-label="GitHub">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 .5a12 12 0 00-3.8 23.4c.6.1.8-.25.8-.55v-2c-3.3.72-4-1.6-4-1.6-.5-1.1-1.2-1.4-1.2-1.4-1-.7.08-.7.08-.7 1.1.08 1.7 1.1 1.7 1.1 1 .1 1.6.7 2 .9.1-.7.4-1.2.8-1.4-2.6-.3-5.4-1.3-5.4-5.9 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2.9-.2 1.8-.3 2.8-.3s1.9.1 2.8.3c2.3-1.5 3.3-1.2 3.3-1.2.6 1.7.2 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.4 5.9.4.3.7.9.7 1.9v2.8c0 .3.2.7.8.6A12 12 0 0012 .5z" fill="currentColor"/></svg>
+            </a>
+            <a href="https://t.me/Lel_1717" target="_blank" rel="noopener" title="Telegram" aria-label="Telegram">
+  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+    <path d="M22 2L2 12l6 2 2 6 12-18z" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <path d="M9.5 13.5L20 4.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.9"/>
+  </svg>
+</a>
+
+<a href="https://www.instagram.com/_hhaile_" target="_blank" rel="noopener" title="Instagram" aria-label="Instagram">
+  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+    <rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" stroke-width="1.6" fill="none"/>
+    <circle cx="12" cy="11.8" r="3.6" stroke="currentColor" stroke-width="1.6" fill="none"/>
+    <circle cx="17.6" cy="6.4" r="0.8" fill="currentColor"/> </svg>
+</a>
+        </div>
+      </div>
+
+      <div class="footer-right">
+        <div class="copyright">© <span id="year"></span> Haileab. All rights reserved.</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
